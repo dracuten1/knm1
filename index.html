@@ -1,73 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://kit.fontawesome.com/d69239854e.js"></script>
 
-    <title>Kỹ năng mềm</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-2" id="web-menu">
-          <nav class="sidebar">
-            <div class="sidebar-header">
-              <a href="index.html">
-                <h3>CHƯA CÓ I</h3>
-              </a>
-            </div>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chua co I</title>
 
-            <ul class="components">
-              <li>
-                <i class="fas fa-users"></i>
-                <a class="active" href="home.html">THÔNG TIN NHÓM</a>
-                <hr />
-              </li>
-              <li>
-                <i class="far fa-calendar-alt"></i>
-                <a href="QTLV.html">QUÁ TRÌNH LÀM VIỆC</a>
-                <hr />
-              </li>
-              <li>
-                <i class="fas fa-ad"></i>
-                <a href="TT.html">TRUYỀN THÔNG</a>
-                <hr />
-              </li>
-              <li>
-                <i class="fas fa-address-card"></i>
-                <a href="lienhe.html">LIÊN HỆ</a>
-                <hr />
-              </li>
-            </ul>
-          </nav>
-        </div>
-        <div class="col-10" id="web-content">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="navigation">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+							data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="navbar-brand">
+							<a href="index.html">
+								<h1><span>C</span>hua<span>C</span>o<span>I</span></h1>
+							</a>
+						</div>
+					</div>
+
+					<div class="navbar-collapse collapse">
+						<div class="menu">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation"><a href="index.html" class="active">Trang chủ</a></li>
+								<li role="presentation"><a href="about.html">Thông tin</a></li>
+								<li role="presentation"><a href="process.html">Quá trình Làm việc</a></li>
+								<li role="presentation"><a href="poster.html">Truyền thông</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<section id="main-slider" class="no-margin">
+		<div class="carousel slide">
+			<div class="carousel-inner">
+				<div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+					<div class="container">
+						<div class="row slide-margin">
+							<div class="col-sm-7">
+								<br><br>
+								<div class="carousel-content">
+									<h2 class="animation animated-item-1"><span>Chưa có I</span></h2>
+									<p class="animation animated-item-2"
+										style="opacity: 0.5;color:rgb(12, 16, 221);background-color: burlywood;width: 60%">
+										Lập nhóm từ ngày 16/7/2019 <br> Thời gian học Kỹ Năng Mềm</p>
+									<a class="btn-slide animation animated-item-3" href="./about.html">Read More</a>
+								</div>
+							</div>
+
+							<!-- <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img3.png" class="img-responsive">
+                                </div>
+                            </div> -->
+
+						</div>
+					</div>
+				</div>
+				<!--/.item-->
+			</div>
+			<!--/.carousel-inner-->
 		</div>
-      </div>
-    </div>
-  </body>
+		<!--/.carousel-->
+	</section>
+	<!--/#main-slider-->
+
+	<div class="about">
+		<div class="container">
+			<div class="col-md-7" style="text-align:center;display: flex;flex-direction:row;justify-content: center;">
+				<iframe width="640" height="430"
+					src="https://drive.google.com/file/d/1k-CQzVyX-b9s8N3x2pYGXAxQAlGt2UJd/preview">
+				</iframe>
+			</div>
+
+			<div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+				<h2>Tài tốt tính</h2>
+				<p>Bộ phim về cậu sinh viên tên Tài, trong hành trình của mình đã giúp đỡ rất nhiều người
+					và cũng bị lợi dụng không ít.
+					<p>Lấy cảm hứng từ chủ đề văn hóa, Chưa Có I đã làm nên một bộ phim mang đậm tính chất nhân văn,
+						cách đối nhân xử thế trong xã hội ngày nay, qua đó cũng đưa lên một lời khuyên, nhắc nhở mọi
+						người,
+						phải thận trong trong cách hành xử của bạn thân.
+					</p>
+					<p>
+						Bộ phim công chiếu ngày 13/8/2019 với sự tham gia của các thành viên trong nhóm. Đón xem nhé!!!.
+					</p>
+			</div>
+		</div>
+	</div>
+
+	<section id="partner">
+		<div class="container">
+			<div class="center wow fadeInDown transparentBg">
+				<h2>Lời cảm ơn</h2>
+				<p>Nhóm chúng em xin cảm ơn sự giúp đỡ của thầy Thái Lê Vinh và cô Nguyễn Thị Mỹ Dung trong thời gian
+					môn học vừa qua
+					. Chúc thầy cô sức khỏe và đạt nhiều thành công hơn trong thời gian tới.
+				</p>
+			</div>
+		</div>
+		<!--/.container-->
+	</section>
+	<!--/#partner-->
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="social-icon">
+					<div class="col-md-4">
+						<ul class="social-network">
+							<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+							</li>
+							<li><a href="#" class="ytube tool-tip" title="You Tube"><i
+										class="fa fa-youtube-play"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-4 col-md-offset-4">
+				</div>
+			</div>
+
+			<div class="pull-right">
+				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+			</div>
+		</div>
+	</footer>
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/functions.js"></script>
+
+</body>
+
 </html>
